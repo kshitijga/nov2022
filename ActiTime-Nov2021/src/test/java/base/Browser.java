@@ -27,5 +27,11 @@ public class Browser {
 		WebDriver driver = new FirefoxDriver();
 		return driver;
 	}
+public static WebDriver launchFirefoxBrowser()
+	{
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\Kshitij Gaikwad\\Downloads\\geckodriver-v0.30.0-win64\\geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		return driver;
+	}
 
 }
