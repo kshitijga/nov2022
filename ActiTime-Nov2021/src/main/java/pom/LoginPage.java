@@ -21,6 +21,7 @@ public class LoginPage {
 	@FindBy (xpath = "//div[text()='Login ']")
 	private WebElement login;
 	
+	
 	private WebDriver driver;
 	private WebDriverWait wait;
 	
