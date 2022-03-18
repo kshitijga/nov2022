@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="classes" name="Edge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="pack123.TestNG">
+        <methods>
+          <include name="closedBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="clearObjectOfPOMClasses"/>
+          <include name="verifyTasks"/>
+          <include name="verifyWorkSchedulePage"/>
+          <include name="clickOnTheLogOutTab"/>
+          <include name="verifyOpenReportPage"/>
+          <include name="verifyOpenUserPage"/>
+          <include name="launchBrowser"/>
+          <include name="objectOfAllPOMClasses"/>
+        </methods>
+      </class> <!-- pack123.TestNG -->
+    </classes>
+  </test> <!-- Edge(failed) -->
+  <test thread-count="1" parallel="classes" name="Firefox(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="pack123.TestNG">
+        <methods>
+          <include name="closedBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="clearObjectOfPOMClasses"/>
+          <include name="verifyTasks"/>
+          <include name="verifyWorkSchedulePage"/>
+          <include name="clickOnTheLogOutTab"/>
+          <include name="verifyOpenTaskPage"/>
+          <include name="verifyOpenReportPage"/>
+          <include name="verifyOpenUserPage"/>
+          <include name="launchBrowser"/>
+          <include name="objectOfAllPOMClasses"/>
+        </methods>
+      </class> <!-- pack123.TestNG -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
